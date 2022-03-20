@@ -1,0 +1,49 @@
+.titre{
+    border-bottom-style: groove;
+  height: 40px;
+    }
+    .liste{ 
+        border-right-style: groove;
+        margin-right: 10px;
+        line-height: 23px;
+        width: 180px;
+        height: 130px;
+        margin-left: -45px;
+    }
+
+    
+    body{
+        background-color: rgb(219, 213, 213);
+    }
+    h1{
+        color: grey;
+        
+    }
+    p{
+        padding-left: 90px;
+    }
+    li{
+        color: blue;
+    }
+    li:hover{
+        background-color: palevioletred;
+        color: gray;
+    }
+    .submenu{
+        display: none;
+        position: absolute;
+    } 
+    li:hover .submenu {  
+        display: inline-block;
+    }
+    a{
+        text-decoration: none ;
+    }
+    li{
+        position: relative;
+        list-style-type: none;
+        margin: 0px;
+    }
+    .alig{
+        display: flex;
+    }
